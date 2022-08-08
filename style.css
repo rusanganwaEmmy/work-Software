@@ -1,0 +1,69 @@
+.togle{
+   
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+ }
+ .midle{
+     padding-left: 300px;
+    
+ }
+ .audio{
+     padding-left: 200px;
+ }
+ .hide{
+     visibility: hidden;
+ }
+ .images{
+    
+ padding-left: 300px;
+ 
+ padding-top: -100px;
+ transition: transform 4s ease-in-out;
+ z-index: 1;
+ }
+ 
+ body{
+     width: 100%;
+     height: 100%;
+     background-color: rgb(165, 253, 253);
+     color: green;
+ }
+ #friend{
+     margin-left: 600px;
+     margin-top: 180px;
+     position: fixed;
+     z-index: 2;
+     
+     }
+ .showimages{
+     transition: transform 4s ease-in-out;
+     transform: translateY(-150%);
+     z-index:1;
+ }
+ 
+ .visa{
+     transition: transform 3s ease-in-out;
+     background-color: aquamarine;
+     width:100%;
+     height: 100%;
+     /* margin-top: 20px; */
+     position: fixed;
+ }
+ .card{
+     transition: transform 3s ease-in-out;
+     background-color: rgba(128, 128, 128, 0.644);
+     width: 100%;
+     height: 100%;
+     position: fixed;
+ }
+ .yaho{
+     transition: transform 3s ease-in-out;
+     transform:translateX(-150%);
+ }
+ .com{
+     transition: transform 3s ease-in-out;
+     transform: translateY(-150%);
+ }
+ 
+ 
